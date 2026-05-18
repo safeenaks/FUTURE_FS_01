@@ -19,15 +19,7 @@ const Hero = () => {
             I build clean, modern and responsive web applications using React and Node.js.
           </p>
 
-          <div className="mt-8 flex gap-4">
-            <button className="px-6 py-3 rounded-xl bg-emerald-300 text-black font-medium hover:bg-emerald-200 transition">
-              View Projects
-            </button>
-
-            <button className="px-6 py-3 rounded-xl border border-white/10 hover:border-emerald-300 transition">
-              Contact Me
-            </button>
-          </div>
+          
         </div>
 
         <div className="relative group">
