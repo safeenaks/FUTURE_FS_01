@@ -25,13 +25,13 @@ const Hero = () => {
         <div className="relative group">
   
   {/* glow behind image */}
-  <div className="absolute -inset-6 bg-gradient-to-tr from-lime-200/20 via-green-100/10 to-emerald-200/20 blur-2xl rounded-3xl group-hover:blur-3xl transition" />
+  <div className="absolute -inset-6 bg-linear-to-tr from-lime-200/20 via-green-100/10 to-emerald-200/20 blur-2xl rounded-3xl group-hover:blur-3xl transition" />
 
   {/* image frame */}
   <div className="relative">
     <img
       src={heroImg}
-      className="w-[280px] h-[280px] object-cover rounded-3xl border border-white/10 shadow-2xl
+      className="w-70 h-70 object-cover rounded-3xl border border-white/10 shadow-2xl
       transition duration-500 group-hover:scale-[1.03]"
     />
   </div>
